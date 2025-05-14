@@ -1,4 +1,15 @@
 # Doxyfile pro projekt simulace výtahu
+#
+# Tento konfigurační soubor byl vytvořen podle doporučení z oficiální dokumentace Doxygen:
+# "Documenting C++ Code with Doxygen"
+# https://www.doxygen.nl/manual/docblocks.html
+#
+# Konfigurace je optimalizována pro generování přehledné HTML dokumentace
+# s diagramy tříd a volání funkcí pomocí nástroje Graphviz.
+#
+# Pro správné generování diagramů je nutné mít nainstalovaný Graphviz:
+# https://graphviz.org/
+
 
 # Základní nastavení
 PROJECT_NAME           = "Simulace výtahu"

@@ -78,3 +78,11 @@ doxygen
 ```
 
 Dokumentace bude vygenerována v adresáři `doc/html`.
+
+## Citace
+
+V tomto projektu jsem využil následující zdroje:
+- [Doxygen](https://www.doxygen.nl/) pro generování dokumentace.
+- [Greedy algoritmus](https://www.geeksforgeeks.org/greedy-algorithms/) pro optimalizaci dopravy součástek.
+- [Vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/) pro efektivní správu seznamu součástek.
+
