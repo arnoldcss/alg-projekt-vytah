@@ -1,0 +1,45 @@
+# Doxyfile pro projekt simulace výtahu
+
+# Základní nastavení
+PROJECT_NAME           = "Simulace výtahu"
+PROJECT_BRIEF          = "Simulace a optimalizace výtahového systému ve výrobním procesu"
+OUTPUT_DIRECTORY       = doc
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = Czech
+
+# Vstupní soubory
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = NO
+EXCLUDE                = doc
+
+# Výstupní formáty
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+
+# Nastavení extrakce
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+
+# Nastavení zpracování
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+
+# Nastavení diagramů
+HAVE_DOT               = YES
+UML_LOOK               = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# Nastavení vzhledu
+GENERATE_TREEVIEW      = YES

@@ -1,0 +1,61 @@
+# C++ specific
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.la
+*.lo
+
+# Doxygen generated documentation
+doc/
+html/
+
+# Build directories
+build/
+Debug/
+Release/
+x64/
+x86/
+
+# IDE specific files
+.vscode/
+.vs/
+*.swp
+*.swo
+.idea/
+*.cbp
+*.layout
+*.depend
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Dependency directories
+vendor/
+external/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
